@@ -1,8 +1,8 @@
 class Ichibou < Formula
   desc "See what your coding agent is building, and know when it is really done"
   homepage "https://github.com/maromocooo/ichibou"
-  url "https://github.com/maromocooo/ichibou/releases/download/v0.1.0/ichibou-0.1.0-darwin-arm64.tar.gz"
-  sha256 "5a5f8fed907b708b43219b55fd0d6d480a4fca52a0b0dcb9de32aa4a4f553b4d"
+  url "https://github.com/maromocooo/ichibou/releases/download/v0.1.1/ichibou-0.1.1-darwin-arm64.tar.gz"
+  sha256 "2a6bae8b6c657878cfeb68ef64f8ab0390d65c317243db40c897cb42f20bab55"
   license "Apache-2.0"
 
   depends_on arch: :arm64
