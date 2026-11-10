@@ -23,7 +23,8 @@ class Ichibou < Formula
 
   test do
     assert_match version.to_s, shell_output("#{bin}/ichibou --version")
-    # The daemon starts for an empty project and prints where it listens.
+    # `doctor` lists the tools it looks for; it exits non-zero when no agent
+    # CLI is installed, which is expected in the test environment.
     output = shell_output("#{bin}/ichibou doctor; true")
     assert_match "Node.js", output
   end
